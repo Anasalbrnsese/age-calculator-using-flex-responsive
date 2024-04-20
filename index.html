@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="calculate age" content="calculate your age when enter your birthdate" />
+    <title>Calculate Your Age</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <center>
+            <form class="form1">
+                <div class="input-age">
+                    <div>
+                        <label for="day" class="day"><b><i>DAY</i></b></label>
+                        <input id="day" type="text" name="day" required placeholder="DD">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="month" class="month"><b><i>MONTH</i></b></label>
+                        <input id="month" type="text" name="Month" required placeholder="MM">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="year" class="year"><b><i>YEAR</i></b></label>
+                        <input id="year" type="text" name="Year" required placeholder="YYYY">
+                    </div>
+                </div>
+                <div class="flex-btn-line">
+                    <hr>
+                    <button id="born" name="born" class="Btn" type="button">
+                        Calculate
+                    </button>
+                </div>
+                <div class="output-age">
+                    <div class="flex-span">
+                        <span class="Year">--</span>
+                        <span class="Month">--</span>
+                        <span class="Day">--</span>
+                    </div>
+
+
+                    <div class="flex-h1">
+                        <h1 class="Year"> <b>year</b></h1>
+                        <h1 class="Month"><b>month</b></h1>
+                        <h1 class="Day"><b>day</b></h1>
+                    </div>
+                </div>
+
+                <div class="a">
+                    <a class="a1" href="mailto:anasalbrnsese@hotmail.com" target="_blank" title="go to mail">Contact
+                        Me</a>
+                    <a class="a2" href="index.html" target="_parent" title="go to _self program">Relod</a>
+                </div>
+            </form>
+        </center>
+    </div>
+    <script src="./CalcAge.js"></script>
+</body>
+
+</html>
