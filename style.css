@@ -56,14 +56,11 @@ body {
 }
 
 .a2 {
-    display: inline-block;
-    padding-block-start: 0vw;
     text-decoration: none;
     background-color: aquamarine;
-    border-radius: 4vw;
-    border-bottom-right-radius: 100vw;
-    border-top-left-radius: 100vw;
-    line-height: 2vw;
+    border-radius: 4px;
+    border-bottom-right-radius: 7vw;
+    border-top-left-radius: 7vw;
     padding: 6px;
 
 }
@@ -74,7 +71,6 @@ body {
     align-items: end;
     width: 100%;
     flex-direction: row;
-    flex-wrap: wrap;
 
 }
 
@@ -187,7 +183,7 @@ span {
     flex-wrap: wrap;
     width: 102%;
     justify-content: space-around;
-    height: 135px;
+    height: 275px;
     align-content: center;
 
 }
