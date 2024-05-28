@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
-
 h1 {
     color: black;
     font-size: 4.187vw;
@@ -14,7 +10,6 @@ h1 {
     display: flex;
     width: 9vw;
     margin: auto;
-
 }
 
 button {
@@ -23,6 +18,9 @@ button {
 
 
 }
+
+
+
 
 form {
     background-color: #ffffff;
@@ -53,6 +51,8 @@ body {
     border-top-left-radius: 7vw;
     padding: 6px;
 
+
+
 }
 
 .a2 {
@@ -61,6 +61,7 @@ body {
     border-radius: 4px;
     border-bottom-right-radius: 7vw;
     border-top-left-radius: 7vw;
+    padding: 6px;
     padding: 6px;
 
 }
@@ -71,6 +72,9 @@ body {
     align-items: end;
     width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
+
+
 
 }
 
@@ -113,12 +117,12 @@ hr {
     background-color: blueviolet;
     display: flex;
     align-self: center;
-
 }
 
 .flex-btn-line {
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
 
 }
 
@@ -150,12 +154,18 @@ input {
 label {
 
     width: 80%;
+    /* Adjust the width as needed */
     font-size: 10px;
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
 
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
 
 .output-age {
     display: flex;
@@ -196,4 +206,17 @@ span {
     align-items: start;
     width: 69%;
     flex-wrap: wrap;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 1.5vw;
 }
